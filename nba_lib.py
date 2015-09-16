@@ -3,7 +3,7 @@ import random
 from power import Skills
 # Object players 
 
-class JugardorClass(object):
+class PlayersClass(object):
     # attributes
     def __init__(self, identificador,nombre,numero,link):
         self.id = identificador
@@ -46,7 +46,7 @@ class JugardorClass(object):
         return self.skill
 
 # Object teams
-class EquipoClass(object):
+class TeamsClass(object):
     def __init__(self, nombre_del_equipo):
         self.nombre_equipo = nombre_del_equipo
         self.jugadores = []
@@ -66,7 +66,7 @@ class EquipoClass(object):
     def process_return_name_of_the_team(self):
         return self.nombre_equipo
 # object league
-class LigaNBA(object):
+class NbaLeagueClass(object):
     def __init__(self):
         self.equipo_seleccionado_en_la_ligaNBA = []
         self.equipo_almacenado = []
