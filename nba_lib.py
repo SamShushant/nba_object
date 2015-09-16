@@ -36,7 +36,7 @@ class PlayersClass(object):
     def process_save_skill(self,skill):
          self.skill = skill
 
-    def process_return_posicion_of_players(self):
+    def process_return_posicion_of_the_players(self):
         return self.posicion_del_jugador
 
     def process_return_capacity_of_players(self):
