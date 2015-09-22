@@ -4,7 +4,7 @@ from power import Skills
 # Object players 
 
 class PlayersClass(object):
-    # attributes
+    # members
     def __init__(self, identificador,nombre,numero,link):
         self.id = identificador
         self.nombre = nombre
